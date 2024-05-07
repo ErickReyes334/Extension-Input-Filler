@@ -8,6 +8,7 @@ const DEFAULT_TELEPHONE_TEMPLATE = "+1 (XxX) XxX-XxxX";
 export const CURRENT_SETTINGS_VERSION = 1;
 
 export const DEFAULT_EMAIL_CUSTOM_FIELD: ICustomField = {
+  id: crypto.randomUUID,
   type: "email",
   name: "Email Address",
   match: ["email"],

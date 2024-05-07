@@ -31,7 +31,7 @@ export interface ICustomField {
   type: CustomFieldTypes;
   name: string;
   match: string[];
-
+  id: any;
   max?: number;
   min?: number;
   decimalPlaces?: number;
